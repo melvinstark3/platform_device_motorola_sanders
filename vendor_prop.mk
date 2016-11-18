@@ -259,7 +259,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.telephony.call_ring.multiple=false \
     persist.vendor.radio.eri64_as_home=1 \
     persist.vendor.radio.data_con_rprt=1 \
-    persist.data.qmi.adb_logmask=0 \
     telephony.lteOnCdmaDevice=1 \
     persist.vendor.ims.disableDebugLogs=1 \
     persist.radio.poweron_opt=1 \
