@@ -219,7 +219,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     com.qc.hardware=true \
     debug.qc.hardware=true \
-    persist.timed.enable=true
+    persist.timed.enable=true \
+    ro.vendor.qti.am.reschedule_service=true \
+    ro.vendor.qti.sys.fw.bservice_enable=true
 
 # Radio
 PRODUCT_PROPERTY_OVERRIDES += \
