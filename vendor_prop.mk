@@ -299,6 +299,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.usb.mtp_adb=0x2e76 \
     ro.usb.ptp=0x2e83 \
     ro.usb.ptp_adb=0x2e84 \
+    persist.vendor.usb.config.extra=none \
     ro.usb.bpt=0x2ee5 \
     ro.usb.bpt_adb=0x2ee6 \
     ro.usb.bpteth=0x2ee7 \
