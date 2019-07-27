@@ -6,6 +6,7 @@
 PRODUCT_PROPERTY_OVERRIDES += \
     af.fast_track_multiplier=1 \
     audio.deep_buffer.media=true \
+    audio.dolby.ds2.enabled=true \    
     audio.offload.disable=false \
     audio.offload.min.duration.secs=60 \
     audio.offload.video=false \
@@ -133,6 +134,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.gralloc.enable_fb_ubwc=1 \
     vendor.display.disable_skip_validate=1
 
+#DRM
+PRODUCT_PROPERTY_OVERRIDES += \
+    drm.service.enabled=true
+
 # Wifi-Display
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.debug.wfd.enable=1 \
@@ -259,6 +264,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.radio.data_con_rprt=1 \
     persist.data.qmi.adb_logmask=0 \
     telephony.lteOnCdmaDevice=1 \
+    persist.vendor.ims.disableDebugLogs=1 \
+    persist.radio.poweron_opt=1 \
+    persist.vendor.ims.disableQXDMLogs=1 \
     DEVICE_PROVISIONED=1
 
 # RmNet Data
@@ -291,6 +299,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 #Trim properties
 PRODUCT_PROPERTY_OVERRIDES += \
+    ro.vendor.qti.sys.fw.use_trim_settings=true \
+    ro.vendor.qti.sys.fw.empty_app_percent=50 \
+    ro.vendor.qti.sys.fw.trim_empty_percent=100 \
+    ro.vendor.qti.sys.fw.trim_cache_percent=100 \
     ro.vendor.qti.sys.fw.trim_enable_memory=2147483648
 
 # USB
