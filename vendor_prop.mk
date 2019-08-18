@@ -135,10 +135,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.gralloc.enable_fb_ubwc=1 \
     vendor.display.disable_skip_validate=1
 
-#DRM
-PRODUCT_PROPERTY_OVERRIDES += \
-    drm.service.enabled=true
-
 # Wifi-Display
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.debug.wfd.enable=1 \
