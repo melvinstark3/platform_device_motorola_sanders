@@ -6,7 +6,7 @@
 PRODUCT_PROPERTY_OVERRIDES += \
     af.fast_track_multiplier=1 \
     audio.deep_buffer.media=true \
-    audio.dolby.ds2.enabled=true \    
+    audio.dolby.ds2.enabled=true \
     audio.offload.disable=false \
     audio.offload.min.duration.secs=60 \
     audio.offload.video=false \
