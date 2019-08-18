@@ -61,9 +61,6 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 PRODUCT_AAPT_CONFIG := normal
 
 # ARCore
-PRODUCT_PACKAGES += \
-    arcore
-
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.calibration_cad=/system/etc/calibration_cad.xml
 
