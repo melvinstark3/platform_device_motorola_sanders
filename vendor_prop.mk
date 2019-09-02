@@ -45,8 +45,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
-    vendor.bluetooth.soc=cherokee \
-    vendor.qcom.bluetooth.soc=cherokee \
     bluetooth.hfp.client=1 \
     vendor.qcom.bluetooth.soc=smd \
     qcom.bt.le_dev_pwr_class=1 \
