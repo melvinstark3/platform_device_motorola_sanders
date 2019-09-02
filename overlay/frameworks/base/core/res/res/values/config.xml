@@ -432,6 +432,9 @@
          and one pSIM) -->
     <integer name="config_num_physical_slots">2</integer>
 
+    <!-- Default color for notification LED is white. -->
+    <color name="config_defaultNotificationColor">#ffffffff</color>
+
     <!-- Whether device needs to wait for Qualcomm MPCTL service to start
      before setting power profiles on boot. -->
     <bool name="config_waitForMpctlOnBoot">true</bool>
